@@ -60,7 +60,7 @@ TEST_CASE("Observer patterns", "[pattern]") {
 	cout << "ALL OBSERVERS HAVE BEEN REMOVED.";
 	cout << endl;
 
-	REQUIRE(subject -> ObserversEmpty() == true); //the observers vector should no longer be empty
+	REQUIRE(subject -> ObserversEmpty() == true); //the observers vector should be empty
 	REQUIRE(subject -> ObserversSize() == 0); //no more observers
 
 }
